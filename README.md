@@ -4,5 +4,9 @@ python代理，将机场节点转化为本地socks节点
 使用v2rayN和clash_meta内核, 加载每个节点带监听端口的配置文件  
 设置为活动服务器后就可以通过127.0.0.1:port来实现代理
 
+## 使用脚本转换机场订阅
+```
+python convert.py -u 订阅地址 -p 起始端口
+```
 
 参考来源: [将机场节点和自建节点任意协议转换为本地socks节点](https://www.bulianglin.com/archives/tosocks.html)，[视频](https://www.youtube.com/watch?v=01F8xUxqmkY)
